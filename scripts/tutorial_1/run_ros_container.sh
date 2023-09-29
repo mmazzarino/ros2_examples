@@ -8,8 +8,16 @@ container_id=$(docker run -d -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-uni
 
 sleep 2
 
-gnome-terminal -- docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && ros2 run turtlesim turtlesim_node"
+#   Testado no Ubuntu 20.04 com o Gnome Terminal (Dual Boot)
+# gnome-terminal -- docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && ros2 run turtlesim turtlesim_node"
+# gnome-terminal -- docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && ros2 run turtlesim turtle_teleop_key"
+# gnome-terminal -- docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && rqt"
 
-gnome-terminal -- docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && ros2 run turtlesim turtle_teleop_key"
+#   Testado no Ubuntu 22.04.3 LTS no WSL2 (Windows 10) com o Windows Terminal.
+xterm -e docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && ros2 run turtlesim turtlesim_node" &
+sleep 1
+xterm -e docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && ros2 run turtlesim turtle_teleop_key" &
+sleep 1
+xterm -e docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && rqt" &
 
-gnome-terminal -- docker exec -it $container_id /bin/bash -c "source /opt/ros/iron/setup.bash && rqt"
+wait
