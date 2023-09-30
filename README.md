@@ -15,27 +15,30 @@ realizadas para permitir que o WSL2 possa executar aplicativos de GUI. Essas con
 são encontradas em: https://learn.microsoft.com/pt-br/windows/wsl/tutorials/gui-apps
 
 Obs. 2: para que os scripts (.sh) possam ser executados, você deve dar permissão de 
-execução para os arquivos:\n
+execução para os arquivos:
 
     -> chmod +x scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
     -> chmod +x scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
     -> chmod +x scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
     -> etc...
 
-Obs. 3: para executar os scripts:\n
+Obs. 3: para executar os scripts:
 
     -> ./scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
     -> ./scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
     -> ./scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
     -> etc...
 
-Exemplo 1 - Noções básicas sobre Nós \n
+Exemplo 1 - Noções básicas sobre Nós
+
 -> https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
 
-Exemplo 2 - Entendendo Tópicos \n
+Exemplo 2 - Entendendo Tópicos
+
 -> https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
 
-Exemplo 3 - Noções básicas sobre Serviços \n
+Exemplo 3 - Noções básicas sobre Serviços
+
 -> https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
 
 
