@@ -23,7 +23,6 @@ sleep 2
 #       decorrer dos exemplos, uma vez que é importante que os terminais estejam posicionados de forma que seja possível visualizar
 #       todos os terminais simultaneamente.
 
-
 # Obs. 2: Note que temos uma linha comentada nos comandos abaixo (linha de inicialização do turtlesim).
 #         Na primeira vez que você executar este script, deixe o "primeiro comando" descomentado e o "segundo comando" comentado.
 #         Durante a execução do script, você será instruído a derrubar os containers e executar novamente este script, porém,
