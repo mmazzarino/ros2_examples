@@ -31,73 +31,73 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 ---------------------------------------------------------------------------------------------------
 ### Exemplo 1 - Noções básicas sobre Nós
 
-#### Resumo
+### Resumo
 
-#### Comando de execução:
+### Comando de execução:
     $ ./scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
 
-#### Documentação Oficial
+### Documentação Oficial
 - https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
 
 
 ---------------------------------------------------------------------------------------------------
 ### Exemplo 2 - Entendendo Tópicos
 
-#### Resumo
+### Resumo
 
-#### Comando de execução:
+### Comando de execução:
     $ ./scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
 
-#### Documentação Oficial
+### Documentação Oficial
 - https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
 
 
 ---------------------------------------------------------------------------------------------------
 ### Exemplo 3 - Noções básicas sobre Serviços
 
-#### Resumo
+### Resumo
 
-#### Comando de execução:
+### Comando de execução:
     $ ./scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
 
-#### Documentação Oficial
+### Documentação Oficial
 - https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
 
 
 ---------------------------------------------------------------------------------------------------
 ### Exemplo 4 - Entendendo Parâmetros
 
-#### Resumo
+### Resumo
 
-#### Comando de execução:
+### Comando de execução:
     $ ./scripts/ex4_entendendo_parametros/ex4_run_ros_container.sh
 
-#### Documentação Oficial
+### Documentação Oficial
 - https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
 
 
 ---------------------------------------------------------------------------------------------------
 ### Exemplo 5 - Entendendo Ações
 
-#### Resumo
+### Resumo
 
-#### Comando de execução:
+### Comando de execução:
     $ ./scripts/ex_5_entendendo_acoes/ex5_run_ros_container.sh
 
-#### Documentação Oficial
+### Documentação Oficial
 - https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
 
 
 ---------------------------------------------------------------------------------------------------
 ### Exemplo 6 - 
 
-#### Resumo
+### Resumo
 rqt_console é uma ferramenta GUI usada para introspecção de mensagens de log no ROS 2. Normalmente, as mensagens de log aparecem no seu terminal. Com o rqt_console, você pode coletar essas mensagens ao longo do tempo, visualizá-las de perto e de forma mais organizada, filtrá-las, salvá-las e até mesmo recarregar os arquivos salvos para introspecção em um momento diferente.
 
 Os nós usam logs para gerar mensagens relativas a eventos e status de várias maneiras. Seu conteúdo geralmente é informativo, para o bem do usuário.
 
-#### Comando de execução:
+### Comando de execução:
     $ ./scripts/ex_6_instrospeccao_de_msgs_de_log/ex6_run_ros_container.sh
 
-#### Documentação Oficial
+### Documentação Oficial
 - https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Using-Rqt-Console/Using-Rqt-Console.html
