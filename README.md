@@ -23,14 +23,14 @@ são encontradas em:
 
 Para que os scripts (.sh) possam ser executados, você deve dar permissão de execução para os arquivos:
 
-$ chmod +x scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
-$ chmod +x scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
-$ chmod +x scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
-$ chmod +x scripts/etc...
+    $ chmod +x scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
+    $ chmod +x scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
+    $ chmod +x scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
+    $ chmod +x scripts/etc...
 
 #### Exemplo 1 - Noções básicas sobre Nós
 
-$ ./scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
+    $ ./scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
 
 Exemplo baseado em:
 https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
@@ -38,7 +38,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nod
 
 #### Exemplo 2 - Entendendo Tópicos
 
-$ ./scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
+    $ ./scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
 
 Exemplo baseado em:
 https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
@@ -46,7 +46,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Top
 
 #### Exemplo 3 - Noções básicas sobre Serviços
 
-$ ./scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
+    $ ./scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
 
 Exemplo baseado em:
 https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
@@ -54,7 +54,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Ser
 
 #### Exemplo 4 - Entendendo Parâmetros
 
-$ ./scripts/ex4_entendendo_parametros/ex4_run_ros_container.sh
+    $ ./scripts/ex4_entendendo_parametros/ex4_run_ros_container.sh
 
 Exemplo baseado em:
 https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
@@ -62,7 +62,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Par
 
 #### Exemplo 5 - Entendendo Ações
 
-$ ./scripts/ex_5_entendendo_acoes/ex5_run_ros_container.sh
+    $ ./scripts/ex_5_entendendo_acoes/ex5_run_ros_container.sh
 
 Exemplo baseado em:
 https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
