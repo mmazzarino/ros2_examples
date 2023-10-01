@@ -29,7 +29,7 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
     $ chmod +x scripts/etc...
 
 ---------------------------------------------------------------------------------------------------
-#### Exemplo 1 - Noções básicas sobre Nós
+### Exemplo 1 - Noções básicas sobre Nós
 
     $ ./scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
 
@@ -38,7 +38,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nod
 
 
 ---------------------------------------------------------------------------------------------------
-#### Exemplo 2 - Entendendo Tópicos
+### Exemplo 2 - Entendendo Tópicos
 
     $ ./scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
 
@@ -47,7 +47,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Top
 
 
 ---------------------------------------------------------------------------------------------------
-#### Exemplo 3 - Noções básicas sobre Serviços
+### Exemplo 3 - Noções básicas sobre Serviços
 
     $ ./scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
 
@@ -56,7 +56,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Ser
 
 
 ---------------------------------------------------------------------------------------------------
-#### Exemplo 4 - Entendendo Parâmetros
+### Exemplo 4 - Entendendo Parâmetros
 
     $ ./scripts/ex4_entendendo_parametros/ex4_run_ros_container.sh
 
@@ -65,7 +65,7 @@ https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Par
 
 
 ---------------------------------------------------------------------------------------------------
-#### Exemplo 5 - Entendendo Ações
+### Exemplo 5 - Entendendo Ações
 
     $ ./scripts/ex_5_entendendo_acoes/ex5_run_ros_container.sh
 
