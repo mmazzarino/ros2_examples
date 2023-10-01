@@ -92,9 +92,9 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 ### Exemplo 6 - 
 
 #### Resumo
-    rqt_console é uma ferramenta GUI usada para introspecção de mensagens de log no ROS 2. Normalmente, as mensagens de log aparecem no seu terminal. Com o rqt_console, você pode coletar essas mensagens ao longo do tempo, visualizá-las de perto e de forma mais organizada, filtrá-las, salvá-las e até mesmo recarregar os arquivos salvos para introspecção em um momento diferente.
+rqt_console é uma ferramenta GUI usada para introspecção de mensagens de log no ROS 2. Normalmente, as mensagens de log aparecem no seu terminal. Com o rqt_console, você pode coletar essas mensagens ao longo do tempo, visualizá-las de perto e de forma mais organizada, filtrá-las, salvá-las e até mesmo recarregar os arquivos salvos para introspecção em um momento diferente.
 
-    Os nós usam logs para gerar mensagens relativas a eventos e status de várias maneiras. Seu conteúdo geralmente é informativo, para o bem do usuário.
+Os nós usam logs para gerar mensagens relativas a eventos e status de várias maneiras. Seu conteúdo geralmente é informativo, para o bem do usuário.
 
 #### Comando de execução:
     $ ./scripts/ex_6_instrospeccao_de_msgs_de_log/ex6_run_ros_container.sh
