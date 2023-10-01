@@ -36,8 +36,8 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 #### Comando de execução:
     $ ./scripts/ex1_nocao_basica_nos/ex1_run_ros_container.sh
 
-##### Documentação Oficial
-    https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
+#### Documentação Oficial
+- https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
 
 
 ---------------------------------------------------------------------------------------------------
@@ -48,8 +48,8 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 #### Comando de execução:
     $ ./scripts/ex2_entendendo_topicos/ex2_run_ros_container.sh
 
-##### Documentação Oficial
-    https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
+#### Documentação Oficial
+- https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
 
 
 ---------------------------------------------------------------------------------------------------
@@ -60,8 +60,8 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 #### Comando de execução:
     $ ./scripts/ex3_nocao_basica_servicos/ex3_run_ros_container.sh
 
-##### Documentação Oficial
-    https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
+#### Documentação Oficial
+- https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
 
 
 ---------------------------------------------------------------------------------------------------
@@ -72,8 +72,8 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 #### Comando de execução:
     $ ./scripts/ex4_entendendo_parametros/ex4_run_ros_container.sh
 
-##### Documentação Oficial
-    https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
+#### Documentação Oficial
+- https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
 
 
 ---------------------------------------------------------------------------------------------------
@@ -84,8 +84,8 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 #### Comando de execução:
     $ ./scripts/ex_5_entendendo_acoes/ex5_run_ros_container.sh
 
-##### Documentação Oficial
-    https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
+#### Documentação Oficial
+- https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
 
 
 ---------------------------------------------------------------------------------------------------
@@ -99,5 +99,5 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 #### Comando de execução:
     $ ./scripts/ex_6_instrospeccao_de_msgs_de_log/ex6_run_ros_container.sh
 
-##### Documentação Oficial
-    https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Using-Rqt-Console/Using-Rqt-Console.html
+#### Documentação Oficial
+- https://docs.ros.org/en/iron/Tutorials/Beginner-CLI-Tools/Using-Rqt-Console/Using-Rqt-Console.html
