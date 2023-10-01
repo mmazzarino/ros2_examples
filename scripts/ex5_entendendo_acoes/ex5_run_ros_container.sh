@@ -24,16 +24,6 @@ sleep 2
 #       todos os terminais simultaneamente.
 
 
-# As ações são compostas por três partes:
-# - Uma meta (goal) que é enviada para o servidor de ação.
-# - Um feedback (feedback) que é enviado periodicamente do servidor de ação para o cliente de ação.
-# - Um resultado (result) que é enviado do servidor de ação para o cliente de ação quando a meta é concluída.
-
-# As ações são como serviços que permitem executar tarefas de longa duração, fornecer feedback regular e são canceláveis.
-# Um sistema de robô provavelmente usaria ações para navegação. Um objetivo de ação poderia dizer a um robô para viajar 
-# para uma posição. Enquanto o robô navega até a posição, ele pode enviar atualizações ao longo do caminho (ou seja, feedback)
-# e, em seguida, uma mensagem de resultado final quando chegar ao seu destino.
-
 xterm -display :0 -geometry 78x24+000+1080 -fa 'Monospace' -fs 10 -e docker exec -it $container_id /bin/bash -c \
 "source /opt/ros/iron/setup.bash && 
  ros2 run turtlesim turtlesim_node" &

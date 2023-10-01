@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Comando para permitir conexões ao servidor X para o usuário root
-xhost +SI:localuser:root
+# xhost +SI:localuser:root
 
 # Comando para executar o container ROS com acesso ao display
 container_id=$(docker run -d -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -it osrf/ros:iron-desktop)
