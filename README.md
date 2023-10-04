@@ -29,32 +29,12 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
     $ chmod +x scripts/ex...
 
 Obs.: Durante a execução dos exemplos, o seu sistema pode ir acumulando containers docker e, dependendo 
-do seu hardware isso pode afetar o desempenho. 
-
-Para listar todos os seus containers em execução:
+do seu hardware, isso pode afetar o desempenho. Abaixo estão alguns comandos docker que podem auxiliar no desenvolvimento.
     
-    $ docker ps
-
-Para listar todos os containers (em execução ou não):
+    $ docker ps                             # lista todos os seus containers em execução
     
-    $ docker ps -a
-
-Para parar algum container:
+    $ docker ps -a                          # listar todos os containers (em execução ou não)
     
-    $ docker stop container_id -t 0
-
-Para remover algum container:
+    $ docker stop container_id -t 0         # parar um container
     
-    $ docker container rm container_id
-
-Para parar todos os containers de uma só vez (só faça isso se tiver certeza!):
-    
-    $ docker stop \$(docker ps -aq) -t 0
-
-Para remover todos os containers de uma só vez (só faça isso se tiver certeza!):
-    
-    $ docker rm \$(docker ps -aq)
-
-Para parar e remover todos os containers de uma só vez (só faça isso se tiver certeza!):
-    
-    $ docker stop \$(docker ps -aq) -t 0 && docker container rm \$(docker ps -aq)
+    $ docker container rm container_id      # remove um container
