@@ -1,0 +1,83 @@
+[0.070s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.323s] -- The C compiler identification is GNU 11.4.0
+[0.654s] -- The CXX compiler identification is GNU 11.4.0
+[0.675s] -- Detecting C compiler ABI info
+[1.043s] -- Detecting C compiler ABI info - done
+[1.055s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.055s] -- Detecting C compile features
+[1.056s] -- Detecting C compile features - done
+[1.083s] -- Detecting CXX compiler ABI info
+[1.376s] -- Detecting CXX compiler ABI info - done
+[1.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.408s] -- Detecting CXX compile features
+[1.409s] -- Detecting CXX compile features - done
+[1.417s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.916s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.080s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.139s] -- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)
+[2.243s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.281s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.378s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.882s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.887s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.196s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.247s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.369s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.089s] -- Found rclcpp_components: 21.0.2 (/opt/ros/iron/share/rclcpp_components/cmake)
+[4.710s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[4.819s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[5.010s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.012s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.013s] -- Configured cppcheck include dirs: /root/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[5.013s] -- Configured cppcheck exclude dirs and/or files: 
+[5.016s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.023s] -- Configured cpplint exclude dirs and/or files: 
+[5.024s] -- Added test 'lint_cmake' to check CMake code style
+[5.027s] -- Added test 'uncrustify' to check C / C++ code style
+[5.027s] -- Configured uncrustify additional arguments: 
+[5.029s] -- Added test 'xmllint' to check XML markup files
+[5.031s] -- Configuring done
+[5.107s] -- Generating done
+[5.109s] -- Build files have been written to: /root/ros2_ws/build/examples_rclcpp_minimal_composition
+[5.145s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/examples_rclcpp_minimal_composition
+[5.145s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[5.353s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[5.374s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[26.312s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[26.898s] [ 33%] Built target composition_nodes
+[26.934s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[33.886s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[34.430s] [ 55%] Built target composition_publisher
+[34.473s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[40.651s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[40.920s] [ 77%] Built target composition_composed
+[40.942s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[46.284s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[46.553s] [100%] Built target composition_subscriber
+[46.569s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[46.626s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/examples_rclcpp_minimal_composition
+[46.634s] -- Install configuration: ""
+[46.635s] -- Execute custom install script
+[46.636s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[46.647s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[46.657s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[46.675s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[46.686s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[46.695s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[46.705s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[46.714s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[46.725s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[46.735s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[46.747s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[46.756s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[46.766s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[46.778s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[46.790s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[46.803s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[46.812s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[46.822s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[46.832s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[46.842s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[46.852s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[46.873s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/examples_rclcpp_minimal_composition

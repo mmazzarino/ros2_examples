@@ -1,0 +1,114 @@
+[0.036s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/examples_rclcpp_wait_set
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.338s] -- Detecting CXX compiler ABI info
+[0.439s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.450s] -- Detecting CXX compile features
+[0.450s] -- Detecting CXX compile features - done
+[0.454s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.676s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.764s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.801s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[0.858s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.875s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.433s] -- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)
+[1.595s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.599s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.737s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.773s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.840s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.124s] -- Found rclcpp_components: 21.0.2 (/opt/ros/iron/share/rclcpp_components/cmake)
+[2.278s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[2.341s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.454s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.457s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.458s] -- Configured cppcheck include dirs: /root/ros2_ws/src/examples/rclcpp/wait_set/include
+[2.458s] -- Configured cppcheck exclude dirs and/or files: 
+[2.460s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.460s] -- Configured cpplint exclude dirs and/or files: 
+[2.462s] -- Added test 'lint_cmake' to check CMake code style
+[2.464s] -- Added test 'uncrustify' to check C / C++ code style
+[2.464s] -- Configured uncrustify additional arguments: 
+[2.465s] -- Added test 'xmllint' to check XML markup files
+[2.467s] -- Configuring done
+[2.546s] -- Generating done
+[2.549s] -- Build files have been written to: /root/ros2_ws/build/examples_rclcpp_wait_set
+[2.565s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/examples_rclcpp_wait_set
+[2.566s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[2.624s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[9.889s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[10.154s] [  8%] Built target talker
+[10.176s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[15.670s] [ 16%] [32m[1mLinking CXX executable wait_set_listener[0m
+[15.835s] [ 16%] Built target wait_set_listener
+[15.856s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[26.537s] [ 25%] [32m[1mLinking CXX executable wait_set[0m
+[27.098s] [ 25%] Built target wait_set
+[27.119s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[37.116s] [ 33%] [32m[1mLinking CXX executable static_wait_set[0m
+[37.579s] [ 33%] Built target static_wait_set
+[37.602s] [ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[45.620s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[46.706s] [ 45%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[47.766s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[50.171s] [ 54%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[51.800s] [ 54%] Built target thread_safe_wait_set
+[58.801s] [ 58%] [32m[1mLinking CXX executable wait_set_talker[0m
+[59.046s] [ 58%] Built target wait_set_talker
+[64.200s] [ 62%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[64.813s] [ 62%] Built target wait_set_topics_and_timer
+[66.247s] [ 66%] [32m[1mLinking CXX shared library liblistener.so[0m
+[66.764s] [ 66%] Built target listener
+[66.785s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[77.737s] [ 75%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[78.306s] [ 75%] Built target wait_set_topics_with_different_rates
+[78.328s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[78.328s] [ 83%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[83.347s] [ 87%] [32m[1mLinking CXX executable wait_set_composed[0m
+[83.646s] [ 87%] Built target wait_set_composed
+[83.666s] [ 91%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[88.696s] [ 95%] [32m[1mLinking CXX executable executor_random_order[0m
+[89.170s] [ 95%] Built target executor_random_order
+[94.330s] [100%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[94.816s] [100%] Built target wait_set_random_order
+[94.828s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[94.900s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/examples_rclcpp_wait_set
+[94.906s] -- Install configuration: ""
+[94.907s] -- Execute custom install script
+[94.908s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[94.917s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[94.927s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[94.937s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[94.947s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[94.957s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[94.969s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[94.983s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[94.993s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[95.001s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[95.010s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[95.019s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[95.028s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[95.037s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[95.046s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[95.054s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[95.062s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[95.071s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[95.080s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[95.089s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[95.098s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[95.106s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[95.115s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[95.123s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[95.132s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[95.141s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[95.149s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[95.158s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[95.172s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/examples_rclcpp_wait_set

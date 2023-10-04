@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_subscriber.cpplint"
+  tests="10"
+  failures="0"
+  errors="0"
+  time="0.243"
+>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/content_filtering.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_type_adapter.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_unique_network_flow_endpoints.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/static_wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/time_triggered_wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <system-out>Checked files:
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/content_filtering.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_type_adapter.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_unique_network_flow_endpoints.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/static_wait_set_subscriber.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/time_triggered_wait_set_subscriber.cpp
+* /root/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber/wait_set_subscriber.cpp</system-out>
+</testsuite>

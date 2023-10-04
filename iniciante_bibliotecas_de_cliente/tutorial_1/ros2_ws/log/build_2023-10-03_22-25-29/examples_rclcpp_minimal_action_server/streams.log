@@ -1,0 +1,72 @@
+[0.028s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.223s] -- The C compiler identification is GNU 11.4.0
+[0.346s] -- The CXX compiler identification is GNU 11.4.0
+[0.359s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.451s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.453s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.461s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.573s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.574s] -- Detecting CXX compile features
+[0.575s] -- Detecting CXX compile features - done
+[0.580s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.806s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.955s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[1.030s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.051s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.542s] -- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)
+[1.720s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.724s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.881s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.948s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.211s] -- Found rclcpp_action: 21.0.2 (/opt/ros/iron/share/rclcpp_action/cmake)
+[2.268s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.386s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.387s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.388s] -- Configured cppcheck include dirs: 
+[2.388s] -- Configured cppcheck exclude dirs and/or files: 
+[2.392s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.392s] -- Configured cpplint exclude dirs and/or files: 
+[2.393s] -- Added test 'lint_cmake' to check CMake code style
+[2.395s] -- Added test 'uncrustify' to check C / C++ code style
+[2.395s] -- Configured uncrustify additional arguments: 
+[2.396s] -- Added test 'xmllint' to check XML markup files
+[2.399s] -- Configuring done
+[2.426s] -- Generating done
+[2.428s] -- Build files have been written to: /root/ros2_ws/build/examples_rclcpp_minimal_action_server
+[2.441s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/examples_rclcpp_minimal_action_server
+[2.441s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[2.513s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[2.514s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[21.520s] [ 75%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[22.255s] [100%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[22.275s] [100%] Built target action_server_not_composable
+[22.885s] [100%] Built target action_server_member_functions
+[22.931s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[23.124s] Invoking command in '/root/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/examples_rclcpp_minimal_action_server
+[23.137s] -- Install configuration: ""
+[23.137s] -- Execute custom install script
+[23.158s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[23.172s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[23.209s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[23.235s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[23.269s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[23.296s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[23.317s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[23.336s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[23.365s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[23.390s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[23.398s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[23.428s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[23.447s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[23.457s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[23.472s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[23.497s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[23.516s] -- Symlinking: /root/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[23.538s] Invoked command in '/root/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/examples_rclcpp_minimal_action_server
