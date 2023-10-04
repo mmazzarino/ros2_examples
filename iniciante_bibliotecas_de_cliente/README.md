@@ -9,6 +9,8 @@ Este é um breve tutorial sobre como criar e criar um espaço de trabalho ROS2 c
 
 O colcon é uma ferramenta usada no ROS 2 (Robot Operating System 2) para compilar e construir projetos. Ele substitui o catkin_make usado no ROS original. colcon é projetado para ser mais flexível e eficiente, especialmente para projetos grandes com várias dependências. Simplifica o processo de compilação e gerenciamento de pacotes em ambientes ROS 2, facilitando o desenvolvimento de software para robótica.
 
+Para obter mais detalhes sobre o design do colcon, consulte https://design.ros2.org/articles/build_tool.html
+
 
 ### Comando de execução:
     $ ./tutorial_1/run_ros_container.sh build # build só é obrigatório na primeira execução.
