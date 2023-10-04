@@ -31,10 +31,10 @@ Para que os scripts (.sh) possam ser executados, você deve dar permissão de ex
 Obs.: Durante a execução dos exemplos, o seu sistema pode ir acumulando containers docker e, dependendo 
 do seu hardware, isso pode afetar o desempenho. Abaixo estão alguns comandos docker que podem auxiliar no desenvolvimento.
     
-    $ docker ps                             # lista todos os seus containers em execução
-    
-    $ docker ps -a                          # listar todos os containers (em execução ou não)
-    
-    $ docker stop container_id -t 0         # parar um container
-    
-    $ docker container rm container_id      # remove um container
+    $ docker ps                                  # lista todos os seus containers em execução
+    $ docker ps -a                               # listar todos os containers (em execução ou não)
+    $ docker stop container_id -t 0              # para um container imediatamente
+    $ docker container rm container_id           # remove um container
+    $ docker stop $(docker ps -aq) -t 0          # para todos containers em execução imediatamente
+    $ docker container rm $(docker ps -aq)       # remove todos os containers (só execute se tiver certeza)
+
