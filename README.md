@@ -43,11 +43,3 @@ Para parar algum container:
 Para remover algum container:
 - docker container rm container_id
 
-Para parar todos os containers de uma só vez (só faça isso se tiver certeza!):
-- docker stop \$(docker ps -aq) -t 0
-
-Para remover todos os containers de uma só vez (só faça isso se tiver certeza!):
-- docker rm \$(docker ps -aq)
-
-Para parar e remover todos os containers de uma só vez (só faça isso se tiver certeza!):
-- docker stop \$(docker ps -aq) -t 0 && docker container rm \$(docker ps -aq)
