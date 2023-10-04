@@ -32,22 +32,22 @@ Obs.: Durante a execução dos exemplos, o seu sistema pode ir acumulando contai
 do seu hardware isso pode afetar o desempenho. 
 
 Para listar todos os seus containers em execução:
-docker ps
+- docker ps
 
 Para listar todos os containers (em execução ou não):
-docker ps -a
+- docker ps -a
 
 Para parar algum container:
-docker stop container_id -t 0
+- docker stop container_id -t 0
 
 Para remover algum container:
-docker container rm container_id
+- docker container rm container_id
 
 Para parar todos os containers de uma só vez (só faça isso se tiver certeza!):
-docker stop $(docker ps -aq) -t 0
+- docker stop $(docker ps -aq) -t 0
 
 Para remover todos os containers de uma só vez (só faça isso se tiver certeza!):
-docker rm $(docker ps -aq)
+- docker rm $(docker ps -aq)
 
 Para parar e remover todos os containers de uma só vez (só faça isso se tiver certeza!):
-docker stop $(docker ps -aq) -t 0 && docker container rm $(docker ps -aq)
+- docker stop $(docker ps -aq) -t 0 && docker container rm $(docker ps -aq)
