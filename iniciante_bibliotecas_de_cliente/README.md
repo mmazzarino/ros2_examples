@@ -13,7 +13,7 @@ Para obter mais detalhes sobre o design do colcon, consulte https://design.ros2.
 
 
 ### Comando de execução:
-    $ ./tutorial_1/run_ros_container.sh build # build só é obrigatório na primeira execução.
+    $ cd tutorial_1 && ./run_ros_container.sh build # build só é obrigatório na primeira execução.
 
 ### Documentação Oficial
 - https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
@@ -24,12 +24,18 @@ Para obter mais detalhes sobre o design do colcon, consulte https://design.ros2.
 ### Tutorial 2 - Criando um espaço de trabalho
 
 ### Resumo
+Crie um espaço de trabalho e saiba como configurar uma sobreposição para desenvolvimento e teste.
+
+Um espaço de trabalho é um diretório que contém pacotes ROS 2. Antes de usar o ROS 2, é necessário originar seu espaço de trabalho de instalação do ROS 2 no terminal em que você planeja trabalhar. Isso torna os pacotes do ROS 2 disponíveis para você usar nesse terminal.
+
+Você também tem a opção de fornecer uma "sobreposição" - um espaço de trabalho secundário onde você pode adicionar novos pacotes sem interferir com o espaço de trabalho ROS 2 existente que você está estendendo, ou "underlay". Seu underlay deve conter as dependências de todos os pacotes em sua sobreposição. Os pacotes em sua sobreposição substituirão os pacotes na subposição. Também é possível ter várias camadas de subcamadas e sobreposições, com cada sobreposição sucessiva usando os pacotes de seus underlays pai.
+
 
 ### Comando de execução:
-    $ ./
+    $ cd tutorial_2 && ./run_ros_container.sh
 
 ### Documentação Oficial
-- 
+- https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
 
 
 ---------------------------------------------------------------------------------------------------
