@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/my_package_by_cmake': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/my_package_by_cmake -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_package_by_cmake
+Invoked command in '/root/ros2_ws/build/my_package_by_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /root/ros2_ws/src/my_package_by_cmake -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_package_by_cmake
+Invoking command in '/root/ros2_ws/build/my_package_by_cmake': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/my_package_by_cmake -- -j4 -l4
+Invoked command in '/root/ros2_ws/build/my_package_by_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /root/ros2_ws/build/my_package_by_cmake -- -j4 -l4
+Invoking command in '/root/ros2_ws/build/my_package_by_cmake': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/my_package_by_cmake
+Invoked command in '/root/ros2_ws/build/my_package_by_cmake' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /root/ros2_ws/build/my_package_by_cmake

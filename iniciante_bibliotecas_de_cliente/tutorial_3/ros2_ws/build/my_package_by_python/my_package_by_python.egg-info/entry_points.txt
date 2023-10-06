@@ -1,0 +1,3 @@
+[console_scripts]
+my_node_by_python = my_package_by_python.my_node_by_python:main
+

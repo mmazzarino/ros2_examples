@@ -1,5 +1,9 @@
 ## Tutoriais de nível iniciante - Bibliotecas de Cliente
 
+Obs. 1: Os tutoriais foram traduzidos do inglês para o português usando o Google Tradutor. A tradução não foi revisada e pode conter erros.
+
+Obs. 2: Se você estiver iniciando algum tutorial e o diretório já conter uma pasta chamada 'ros2_ws', provavelmente significa que o tutorial já foi executado e o espaço de trabalho já foi criado. Nesse caso, você pode excluir a pasta 'ros2_ws' e executar o script .sh para criar um novo espaço de trabalho. 
+
 
 ---------------------------------------------------------------------------------------------------
 ### Tutorial 1 - Usando colcon para compilar pacotes
@@ -42,24 +46,35 @@ Você também tem a opção de fornecer uma "sobreposição" - um espaço de tra
 ### Tutorial 3 - Criando um pacote
 
 ### Resumo
+Crie um novo pacote usando CMake ou Python e execute seu executável.
+
+Um pacote é uma unidade organizacional para seu código ROS 2. Se você quiser ser capaz de instalar seu código ou compartilhá-lo com outras pessoas, então você precisará dele organizado em um pacote. Com pacotes, você pode liberar seu trabalho ROS 2 e permitir que outros o criem e usem facilmente.
+
+A criação de pacotes no ROS 2 usa ament como seu sistema de compilação e colcon como sua ferramenta de compilação. Você pode criar um pacote usando CMake ou Python, que são oficialmente suportados, embora existam outros tipos de compilação.
+
 
 ### Comando de execução:
-    $ ./
+    $ cd tutorial_3 && ./run_ros_container.sh
 
 ### Documentação Oficial
-- 
+- https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 
 
 ---------------------------------------------------------------------------------------------------
 ### Tutorial 4 - Escrevendo um editor e assinante simples (C++)
 
 ### Resumo
+Crie e execute um nó de editor e assinante usando C++.
+
+Os nós são processos executáveis que se comunicam através do gráfico ROS. Neste tutorial, os nós passarão informações na forma de mensagens de cadeia de caracteres uns para os outros sobre um tópico. O exemplo usado aqui é um sistema simples de "falante" e "ouvinte"; um nó publica dados e o outro assina o tópico para que possa receber esses dados.
+
+O código usado nesses exemplos pode ser encontrado em: https://github.com/ros2/examples/tree/iron/rclcpp/topics
 
 ### Comando de execução:
     $ ./
 
 ### Documentação Oficial
-- 
+- https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
 
 
 ---------------------------------------------------------------------------------------------------

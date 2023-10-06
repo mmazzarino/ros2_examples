@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.001002] (my_package_by_cmake) JobQueued: {'identifier': 'my_package_by_cmake', 'dependencies': OrderedDict()}
+[0.001158] (my_package_by_python) JobQueued: {'identifier': 'my_package_by_python', 'dependencies': OrderedDict()}
+[0.001196] (my_package_by_cmake) JobStarted: {'identifier': 'my_package_by_cmake'}
+[0.030653] (my_package_by_python) JobStarted: {'identifier': 'my_package_by_python'}
+[0.047821] (my_package_by_cmake) JobProgress: {'identifier': 'my_package_by_cmake', 'progress': 'cmake'}
+[0.048169] (my_package_by_cmake) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/my_package_by_cmake', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_package_by_cmake'], 'cwd': '/root/ros2_ws/build/my_package_by_cmake', 'env': OrderedDict([('HOSTNAME', '04d1be4ae110'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/root/ros2_ws/build/my_package_by_cmake'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098255] (-) TimerEvent: {}
+[0.198718] (-) TimerEvent: {}
+[0.269522] (my_package_by_cmake) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.298836] (-) TimerEvent: {}
+[0.396513] (my_package_by_cmake) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.399058] (-) TimerEvent: {}
+[0.422936] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499179] (-) TimerEvent: {}
+[0.521720] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.526024] (my_package_by_cmake) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.527144] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.528661] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.535407] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599312] (-) TimerEvent: {}
+[0.630852] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.640350] (my_package_by_cmake) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.640669] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.641219] (my_package_by_cmake) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.646315] (my_package_by_cmake) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.699442] (-) TimerEvent: {}
+[0.800831] (-) TimerEvent: {}
+[0.856354] (my_package_by_cmake) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.872884] (my_package_by_python) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package_by_python', 'build', '--build-base', '/root/ros2_ws/build/my_package_by_python/build', 'install', '--record', '/root/ros2_ws/build/my_package_by_python/install.log', '--single-version-externally-managed'], 'cwd': '/root/ros2_ws/src/my_package_by_python', 'env': {'HOSTNAME': '04d1be4ae110', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'iron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/ros2_ws/build/my_package_by_python', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/my_package_by_python/prefix_override:/root/ros2_ws/install/my_package_by_python/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.900994] (-) TimerEvent: {}
+[1.001464] (-) TimerEvent: {}
+[1.009744] (my_package_by_cmake) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.101667] (-) TimerEvent: {}
+[1.122658] (my_package_by_cmake) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.122951] (my_package_by_cmake) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_ws/src/my_package_by_cmake/include>\n'}
+[1.123065] (my_package_by_cmake) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.133837] (my_package_by_cmake) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.136136] (my_package_by_cmake) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.136315] (my_package_by_cmake) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.139459] (my_package_by_cmake) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.147535] (my_package_by_cmake) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.160224] (my_package_by_cmake) StdoutLine: {'line': b'-- Generating done\n'}
+[1.162334] (my_package_by_cmake) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/my_package_by_cmake\n'}
+[1.165891] (my_package_by_python) StdoutLine: {'line': b'running egg_info\n'}
+[1.167379] (my_package_by_python) StdoutLine: {'line': b'creating ../../build/my_package_by_python/my_package_by_python.egg-info\n'}
+[1.167965] (my_package_by_python) StdoutLine: {'line': b'writing ../../build/my_package_by_python/my_package_by_python.egg-info/PKG-INFO\n'}
+[1.169904] (my_package_by_python) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package_by_python/my_package_by_python.egg-info/dependency_links.txt\n'}
+[1.170122] (my_package_by_python) StdoutLine: {'line': b'writing entry points to ../../build/my_package_by_python/my_package_by_python.egg-info/entry_points.txt\n'}
+[1.170263] (my_package_by_python) StdoutLine: {'line': b'writing requirements to ../../build/my_package_by_python/my_package_by_python.egg-info/requires.txt\n'}
+[1.170353] (my_package_by_python) StdoutLine: {'line': b'writing top-level names to ../../build/my_package_by_python/my_package_by_python.egg-info/top_level.txt\n'}
+[1.170436] (my_package_by_python) StdoutLine: {'line': b"writing manifest file '../../build/my_package_by_python/my_package_by_python.egg-info/SOURCES.txt'\n"}
+[1.171769] (my_package_by_python) StdoutLine: {'line': b"reading manifest file '../../build/my_package_by_python/my_package_by_python.egg-info/SOURCES.txt'\n"}
+[1.171984] (my_package_by_python) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.172822] (my_package_by_python) StdoutLine: {'line': b"writing manifest file '../../build/my_package_by_python/my_package_by_python.egg-info/SOURCES.txt'\n"}
+[1.173024] (my_package_by_python) StdoutLine: {'line': b'running build\n'}
+[1.173267] (my_package_by_python) StdoutLine: {'line': b'running build_py\n'}
+[1.173367] (my_package_by_python) StdoutLine: {'line': b'creating /root/ros2_ws/build/my_package_by_python/build\n'}
+[1.173695] (my_package_by_python) StdoutLine: {'line': b'creating /root/ros2_ws/build/my_package_by_python/build/lib\n'}
+[1.174038] (my_package_by_python) StdoutLine: {'line': b'creating /root/ros2_ws/build/my_package_by_python/build/lib/my_package_by_python\n'}
+[1.174447] (my_package_by_python) StdoutLine: {'line': b'copying my_package_by_python/__init__.py -> /root/ros2_ws/build/my_package_by_python/build/lib/my_package_by_python\n'}
+[1.174597] (my_package_by_python) StdoutLine: {'line': b'copying my_package_by_python/my_node_by_python.py -> /root/ros2_ws/build/my_package_by_python/build/lib/my_package_by_python\n'}
+[1.174905] (my_package_by_python) StdoutLine: {'line': b'running install\n'}
+[1.175375] (my_package_by_python) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.175502] (my_package_by_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.175754] (my_package_by_python) StdoutLine: {'line': b'running install_lib\n'}
+[1.176864] (my_package_by_python) StdoutLine: {'line': b'creating /root/ros2_ws/install/my_package_by_python/lib/python3.10/site-packages/my_package_by_python\n'}
+[1.177435] (my_package_by_python) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_package_by_python/build/lib/my_package_by_python/__init__.py -> /root/ros2_ws/install/my_package_by_python/lib/python3.10/site-packages/my_package_by_python\n'}
+[1.177655] (my_package_by_python) StdoutLine: {'line': b'copying /root/ros2_ws/build/my_package_by_python/build/lib/my_package_by_python/my_node_by_python.py -> /root/ros2_ws/install/my_package_by_python/lib/python3.10/site-packages/my_package_by_python\n'}
+[1.178233] (my_package_by_python) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_package_by_python/lib/python3.10/site-packages/my_package_by_python/__init__.py to __init__.cpython-310.pyc\n'}
+[1.178840] (my_package_by_python) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/install/my_package_by_python/lib/python3.10/site-packages/my_package_by_python/my_node_by_python.py to my_node_by_python.cpython-310.pyc\n'}
+[1.179106] (my_package_by_python) StdoutLine: {'line': b'running install_data\n'}
+[1.179650] (my_package_by_python) StdoutLine: {'line': b'creating /root/ros2_ws/install/my_package_by_python/share/ament_index\n'}
+[1.180027] (my_package_by_python) StdoutLine: {'line': b'creating /root/ros2_ws/install/my_package_by_python/share/ament_index/resource_index\n'}
+[1.180400] (my_package_by_python) StdoutLine: {'line': b'creating /root/ros2_ws/install/my_package_by_python/share/ament_index/resource_index/packages\n'}
+[1.180794] (my_package_by_python) StdoutLine: {'line': b'copying resource/my_package_by_python -> /root/ros2_ws/install/my_package_by_python/share/ament_index/resource_index/packages\n'}
+[1.180945] (my_package_by_python) StdoutLine: {'line': b'copying package.xml -> /root/ros2_ws/install/my_package_by_python/share/my_package_by_python\n'}
+[1.181118] (my_package_by_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.182530] (my_package_by_cmake) CommandEnded: {'returncode': 0}
+[1.185157] (my_package_by_cmake) JobProgress: {'identifier': 'my_package_by_cmake', 'progress': 'build'}
+[1.185211] (my_package_by_python) StdoutLine: {'line': b'Copying ../../build/my_package_by_python/my_package_by_python.egg-info to /root/ros2_ws/install/my_package_by_python/lib/python3.10/site-packages/my_package_by_python-0.0.0-py3.10.egg-info\n'}
+[1.185354] (my_package_by_cmake) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_package_by_cmake', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/my_package_by_cmake', 'env': OrderedDict([('HOSTNAME', '04d1be4ae110'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/root/ros2_ws/build/my_package_by_cmake'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.185635] (my_package_by_python) StdoutLine: {'line': b'running install_scripts\n'}
+[1.201873] (-) TimerEvent: {}
+[1.210971] (my_package_by_python) StdoutLine: {'line': b'Installing my_node_by_python script to /root/ros2_ws/install/my_package_by_python/lib/my_package_by_python\n'}
+[1.212046] (my_package_by_python) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/my_package_by_python/install.log'\n"}
+[1.238784] (my_package_by_cmake) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_node_by_cmake.dir/src/my_node_by_cmake.cpp.o\x1b[0m\n'}
+[1.244591] (my_package_by_python) CommandEnded: {'returncode': 0}
+[1.274056] (my_package_by_python) JobEnded: {'identifier': 'my_package_by_python', 'rc': 0}
+[1.287061] (my_package_by_cmake) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_node_by_cmake\x1b[0m\n'}
+[1.301930] (-) TimerEvent: {}
+[1.341035] (my_package_by_cmake) StdoutLine: {'line': b'[100%] Built target my_node_by_cmake\n'}
+[1.353337] (my_package_by_cmake) CommandEnded: {'returncode': 0}
+[1.381112] (my_package_by_cmake) JobProgress: {'identifier': 'my_package_by_cmake', 'progress': 'install'}
+[1.390156] (my_package_by_cmake) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/my_package_by_cmake'], 'cwd': '/root/ros2_ws/build/my_package_by_cmake', 'env': OrderedDict([('HOSTNAME', '04d1be4ae110'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'iron'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/root/ros2_ws/build/my_package_by_cmake'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[1.399200] (my_package_by_cmake) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.400665] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/lib/my_package_by_cmake/my_node_by_cmake\n'}
+[1.402069] (-) TimerEvent: {}
+[1.404147] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/ament_index/resource_index/package_run_dependencies/my_package_by_cmake\n'}
+[1.405520] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/ament_index/resource_index/parent_prefix_path/my_package_by_cmake\n'}
+[1.410409] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/environment/ament_prefix_path.sh\n'}
+[1.410566] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/environment/ament_prefix_path.dsv\n'}
+[1.410723] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/environment/path.sh\n'}
+[1.410818] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/environment/path.dsv\n'}
+[1.410901] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/local_setup.bash\n'}
+[1.410980] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/local_setup.sh\n'}
+[1.411058] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/local_setup.zsh\n'}
+[1.411136] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/local_setup.dsv\n'}
+[1.411223] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/package.dsv\n'}
+[1.412623] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/ament_index/resource_index/packages/my_package_by_cmake\n'}
+[1.413684] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/cmake/my_package_by_cmakeConfig.cmake\n'}
+[1.414039] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/cmake/my_package_by_cmakeConfig-version.cmake\n'}
+[1.414249] (my_package_by_cmake) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/my_package_by_cmake/share/my_package_by_cmake/package.xml\n'}
+[1.418865] (my_package_by_cmake) CommandEnded: {'returncode': 0}
+[1.475331] (my_package_by_cmake) JobEnded: {'identifier': 'my_package_by_cmake', 'rc': 0}
+[1.477425] (-) EventReactorShutdown: {}
